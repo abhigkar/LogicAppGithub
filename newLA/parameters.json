@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "f76ad046-432e-4d27-b47a-87d86fd3af96"
+        },
+        "name": {
+            "value": "abhigkar-logicapp-test1"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-freetriallogicapprg-a631"
+        },
+        "serverFarmResourceGroup": {
+            "value": "free-trial-logicapp-rg"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "storageAccountName": {
+            "value": "freetriallogicapprgbf93"
+        },
+        "sku": {
+            "value": "WorkflowStandard"
+        },
+        "skuCode": {
+            "value": "WS1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        }
+    }
+}
